@@ -10,9 +10,8 @@ import (
 )
 
 const (
-	writeWait = 2 * time.Second
-	pongWait  = 60 * time.Second
-	// pingPeriod       = (pongWait * 9) / 10
+	writeWait        = 2 * time.Second
+	pongWait         = 60 * time.Second
 	closeGracePeriod = 10 * time.Second
 )
 
