@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"io"
 	"log"
 	"time"
 
@@ -66,9 +65,6 @@ func main() {
 	}
 
 	log.Println(resp.Status)
-	if _, err := io.ReadAll(resp.Body); err != nil {
-		log.Fatal(err)
-	}
 
 	conn.WriteMessage(websocket.TextMessage, []byte("first message from client"))
 
