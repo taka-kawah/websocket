@@ -4,7 +4,7 @@ services:
       context: ./server
       dockerfile: Dockerfile
     volumes:
-      - .:app:cached
+      - .:/app:cached
     command: ["sleep", "infinity"]
     networks: [net]
     ports:
@@ -15,7 +15,7 @@ services:
       context: ./client
       dockerfile: Dockerfile
     volumes:
-      - .:/workspaces/app:cached
+      - .:/app:cached
     command: ["sleep", "infinity"]
     networks: [net]
 
