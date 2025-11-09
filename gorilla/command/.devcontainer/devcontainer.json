@@ -1,0 +1,16 @@
+{
+    "name": "gorilla-command",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "server",
+    "workspaceFolder": "/app",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "golang.go"
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/cirolosapio/devcontainers-features/alpine-curl:0": {}
+    }
+}
