@@ -1,7 +1,7 @@
 {
     "name": "fastapi-websocket",
     "dockerComposeFile": "../../docker-compose.yml",
-    "service": "",
+    "service": "client",
     "workspaceFolder": "/app",
     "customizations": {
         "vscode": {
