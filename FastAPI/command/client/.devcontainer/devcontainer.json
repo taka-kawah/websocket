@@ -1,0 +1,19 @@
+{
+    "name": "fastapi-websocket",
+    "dockerComposeFile": "../../docker-compose.yml",
+    "service": "",
+    "workspaceFolder": "/app",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.pylint",
+                "ms-python.vscode-pylance",
+                "oderwat.indent-rainbow"
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/cirolosapio/devcontainers-features/alpine-curl:0": {}
+    }
+}
